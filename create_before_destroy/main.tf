@@ -15,8 +15,9 @@ resource "aws_instance" "usa-instance" {
   tags = {
     Name = "usa-instance"
   }
-}
+
 
 lifecycle {
   create_before_destroy = true
 }   
+}
