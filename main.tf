@@ -1,3 +1,5 @@
+#create one ec2 instance
+
 provider "aws" {
   region = "us-east-1"
 }
@@ -10,9 +12,3 @@ resource "aws_instance" "my-first-instance" {
   }
 }
 
-
-
-#init
-#plan
-#apply
-#destroy
