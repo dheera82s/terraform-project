@@ -12,3 +12,7 @@ resource "aws_instance" "my-first-instance" {
   }
 }
 
+
+
+
+
