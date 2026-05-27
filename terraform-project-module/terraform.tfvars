@@ -1,0 +1,5 @@
+region = "us-east-1"
+ec2_ami = "ami-00e801948462f718a"
+ec2_instance_type = "t3.micro"
+ec2_instance_name = "dev-ec2-instance"
+s3_bucket_name = "my-project-bucket"
